@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border-radius: 10%;
+    height: 15vh;
+    width: 100%;
+}
+
+.navbar{
+    background-color: #E7473C;
+    display: flex;
+    height: 80%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px 5px rgb(170, 170, 170);
+}
+.navbarItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    gap: 20%;
+}
+.logo{
+    max-width: 25%;
+}

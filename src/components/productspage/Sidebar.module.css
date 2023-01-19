@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    /* width: 40%; */
+    margin-right: 5rem;
+    /* background-color: #E7473C; */
+    /* border: 0.4rem solid #E7473C; */
+    /* border-radius: 3rem; */
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 5% 20%;
+    align-content: center;
+    justify-content: flex-start;
+    gap: 30px ;
+}
